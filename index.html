@@ -1,0 +1,561 @@
+{
+  "startingLocation": "Pallet Town",
+  "endingLocation": "Elite Four",
+  "player": {
+    "items": [
+      {
+        "name": "Potion"
+      },
+      {
+        "name": "pokeball"
+      },
+      {
+        "name": "pokeball"
+      },
+      {
+        "name": "pokeball"
+      }
+    ],
+    "pokemon": {
+      "name": "Pikachu",
+      "type": "electric",
+      "hp": "20",
+      "level": "5",
+      "attack": "3",
+      "defense": "10"
+    }
+  },
+  "locations": [
+    {
+      "name": "Pallet Town",
+      "description": "This is where it all begins. You need to go to Professor Oak's office to choose your pokemon",
+      "directions": [
+        {
+          "directionName": "East",
+          "location": "Professor Oak's lab",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "West",
+          "location": "Pewter City",
+          "enabled": "false",
+          "validKeyNames": [
+            "HMFly",
+            "Pokedex"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "name": "HMFly"
+        },
+        {
+          "name": "pokeball"
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Caterpie",
+          "type": "bug",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Weedle",
+          "type": "bug",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Pidgey",
+          "type": "flying",
+          "hp": "15",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+
+    {
+      "name": "Professor Oak's lab",
+      "description": "You are in Professor Oak's lab now. It is time for you to choose your first pokemon",
+      "items": [
+        {
+          "name": "potion"
+        },
+        {
+          "name": "Pokedex"
+        },
+        {
+          "name": "pokeball"
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Charmander",
+          "type": "fire",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Squirtle",
+          "type": "water",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Bulbasaur",
+          "type": "grass",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "West",
+          "location": "Pallet Town",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "North",
+          "location": "Cerulan City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Boulder Badge"
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Pewter City",
+      "description": "You are in Pewter City now. This city is known for its rock and ground type pokemon and your first gym",
+      "items": [
+        {
+          "name": "Boulder Badge"
+        },
+        {
+          "name": "Pokeball"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "East",
+          "location": "Pallet Town",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "North",
+          "location": "Cerulean City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Boulder Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Geodude",
+          "type": "rock",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Onyx",
+          "type": "rock",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Cerulean City",
+      "description": "You are in Cerulean City now. This city is known for its water type pokemon and your second gym",
+      "items": [
+        {
+          "name": "Cascade Badge"
+        },
+        {
+          "name": "Water Stone"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "location": "Pewter City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "West",
+          "location": "Vermillion City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Cascade Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Staryu",
+          "type": "water",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Squirtle",
+          "type": "water",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Vermillion City",
+      "description": "You are in Vermillion City now. This city is known for its electric type pokemon and your third gym",
+      "items": [
+        {
+          "name": "Thunder Badge"
+        },
+        {
+          "name": "Electric Stone"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "East",
+          "location": "Cerulean City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "North",
+          "location": "Celadon City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Thunder Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Pichu",
+          "type": "electric",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Jolteon",
+          "type": "electric",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Celadon City",
+      "description": "You are in Celadon City now. This city is known for its grass type pokemon and your fourth gym",
+      "items": [
+        {
+          "name": "Rainbow Badge"
+        },
+        {
+          "name": "Leaf Stone"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "location": "Vermillion City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "East",
+          "location": "Fuchsia City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Rainbow Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Bulbasaur",
+          "type": "grass",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Tangela",
+          "type": "grass",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Fuchsia City",
+      "description": "You are in Fuchsia City now. This city is known for its poison type pokemon and your fifth gym",
+      "items": [
+        {
+          "name": "Soul Badge"
+        },
+        {
+          "name": "pokeball"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "West",
+          "location": "Celadon City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "North",
+          "location": "Saffron City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Soul Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Weezing",
+          "type": "poison",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Crobat",
+          "type": "posion",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Saffron City",
+      "description": "You are in Fuchsia City now. This city is known for its psychic type pokemon and your sixth gym",
+      "items": [
+        {
+          "name": "Marsh Badge"
+        },
+        {
+          "name": "pokeball"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "location": "Fuchsia City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "East",
+          "location": "Cinnabar Island",
+          "enabled": "false",
+          "validKeyNames": [
+            "Marsh Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Abra",
+          "type": "psychic",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Mr.Mime",
+          "type": "psychic",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Cinnabar Island",
+      "description": "You are in Cinnabar Island now. This city is known for its fire type pokemon and your seventh gym",
+      "items": [
+        {
+          "name": "Volcano Badge"
+        },
+        {
+          "name": "Fire Stone"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "West",
+          "location": "Saffron City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "North",
+          "location": "Viridian City",
+          "enabled": "false",
+          "validKeyNames": [
+            "Volcano Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Arcanine",
+          "type": "fire",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Ninetales",
+          "type": "fire",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Viridian City",
+      "description": "You are in Viridian now. This city is known for its heinous boss and mixed type pokemon and eighth and final gym",
+      "items": [
+        {
+          "name": "Earth Badge"
+        },
+        {
+          "name": "Fire Stone"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "location": "Cinnabar Island",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        },
+        {
+          "directionName": "North",
+          "location": "Elite Four",
+          "enabled": "false",
+          "validKeyNames": [
+            "Earth Badge"
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Persian",
+          "type": "normal",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Pidgeot",
+          "type": "flying",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    },
+    {
+      "name": "Elite Four",
+      "description": "You are in the Elite Four now. You have finished the game",
+      "items": [
+        {
+          "name": "pokeball"
+        },
+        {
+          "name": "pokeball"
+        }
+      ],
+      "directions": [
+        {
+          "directionName": "South",
+          "location": "Viridian City",
+          "enabled": "true",
+          "validKeyNames": [
+          ]
+        }
+      ],
+      "pokemon": [
+        {
+          "name": "Mewtwo",
+          "type": "psychic",
+          "hp": "15",
+          "level": "7",
+          "attack": "2",
+          "defense": "3"
+        },
+        {
+          "name": "Zapdos",
+          "type": "electric",
+          "hp": "20",
+          "level": "5",
+          "attack": "2",
+          "defense": "3"
+        }
+      ]
+    }
+  ]
+}
